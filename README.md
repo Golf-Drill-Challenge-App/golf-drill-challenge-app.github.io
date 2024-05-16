@@ -1,4 +1,23 @@
-# Starlight Starter Kit: Basics
+# Golf Drill Challenge App Landing Page
+
+## Commands (local dev)
+
+- `npm i`
+  - Install dependencies
+- `npm run dev`
+  - Run site locally
+- `npm run pretty`
+  - formatting
+
+## CI / CD
+
+- Make a new branch
+- Test changes locally
+- Make a PR
+- Review PR and then Squash Merge if it looks good (will trigger site deployment)
+  - Remember to run `npm run pretty`
+
+# Starlight BoilerPlate (clean up later)
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
