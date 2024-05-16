@@ -11,8 +11,11 @@
 
 ## CI / CD
 
-- Site deployment is triggered on pushes to `main` branch
-- Make a new branch, test changes locally, make a PR, changes will be deployed upon merging into `main`
+- Make a new branch
+- Test changes locally
+- Make a PR
+- Review PR and then Squash Merge if it looks good (will trigger site deployment)
+  - Remember to run `npm run pretty`
 
 # Starlight BoilerPlate (clean up later)
 
