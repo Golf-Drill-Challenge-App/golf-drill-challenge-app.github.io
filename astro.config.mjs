@@ -3,11 +3,12 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'golf-drill-challenge-app.github.io',
 	integrations: [
 		starlight({
 			title: 'My Docs',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/Golf-Drill-Challenge-App/Golf-App',
 			},
 			sidebar: [
 				{
