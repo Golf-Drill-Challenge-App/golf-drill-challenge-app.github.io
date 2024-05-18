@@ -26,6 +26,7 @@ export default defineConfig({
       components: {
         SocialIcons: "./src/components/SocialIcon.astro",
       },
+      favicon: "./src/assets/favicon.ico",
     }),
   ],
 });

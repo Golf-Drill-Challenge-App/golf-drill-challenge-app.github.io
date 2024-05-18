@@ -8,8 +8,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "pretty": "prettier --write .",
-    "pretty:check": "prettier --check ."
+    "pretty": "prettier --write **/*.astro .",
+    "pretty:check": "prettier --check **/*.astro ."
   },
   "dependencies": {
     "@astrojs/starlight": "^0.22.2",
@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.13.0",
     "prettier-plugin-organize-imports": "^3.2.4"
   }
 }
