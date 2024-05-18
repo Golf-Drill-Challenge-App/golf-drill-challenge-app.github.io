@@ -6,7 +6,7 @@ export default defineConfig({
   site: "https://golf-drill-challenge-app.github.io",
   integrations: [
     starlight({
-      title: "My Docs",
+      title: "Golf Drill Challenge",
       social: {
         github: "https://github.com/Golf-Drill-Challenge-App/Golf-App",
       },
