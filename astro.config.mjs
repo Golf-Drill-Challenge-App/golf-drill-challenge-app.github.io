@@ -9,6 +9,7 @@ export default defineConfig({
       title: "Golf Drill Challenge",
       social: {
         github: "https://github.com/Golf-Drill-Challenge-App/Golf-App",
+        youtube: "https://youtube.com",
       },
       sidebar: [
         {
@@ -23,6 +24,9 @@ export default defineConfig({
           autogenerate: { directory: "reference" },
         },
       ],
+      components: {
+        SocialIcons: "./src/components/SocialIcon.astro",
+      },
     }),
   ],
 });
