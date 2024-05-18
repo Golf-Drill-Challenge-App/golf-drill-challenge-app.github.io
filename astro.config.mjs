@@ -23,6 +23,9 @@ export default defineConfig({
           autogenerate: { directory: "reference" },
         },
       ],
+      components: {
+        SocialIcons: "./src/components/SocialIcon.astro",
+      },
     }),
   ],
 });
