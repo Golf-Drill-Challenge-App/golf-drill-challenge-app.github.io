@@ -17,6 +17,9 @@ hero:
 ---
 
 import { Card, CardGrid } from "@astrojs/starlight/components";
+import { Image } from "astro:assets";
+import ImgCard from "../../components/ImgCard.astro";
+
 import Assigned from "../../assets/Assigned.png";
 import Input from "../../assets/Input.png";
 import Result from "../../assets/Result.png";
@@ -24,9 +27,16 @@ import Stats from "../../assets/Stats.png";
 import Leaderboard from "../../assets/Leaderboard.png";
 import Team from "../../assets/Team.png";
 
-import { Image } from "astro:assets";
+import Artem from "../../assets/Artem.png";
+import Andy from "../../assets/Andy.png";
+import Colby from "../../assets/Colby.png";
+import Frank from "../../assets/Frank.png";
+import Jake from "../../assets/Jake.png";
+import Jeff from "../../assets/Jeff.png";
+import RobHess from "../../assets/RobHess.png";
+import JonRehoorn from "../../assets/JonReehoorn.png";
 
-## Why Us
+# Why Us
 
 ##### The Golf Drill Challenge offers an **innovative** solution to enhance golf training and simplify the process.
 
@@ -34,9 +44,9 @@ import { Image } from "astro:assets";
 - Player progress is tracked over time on a graphical interface to allow for further insights into player performance.
 - The Golf Drill Challenge App attempts to bring a digital approach to the training process of golf teams **everywhere**.
 
-## About Us
+# About Us
 
-<CardGrid stagger>
+<CardGrid>
   <Card title="Golf Drill Challenge" icon="error">
     The OSU Men's Golf Team faces a problem in providing structured and personalized golf training for its players. Monitoring individual progress, and having healthy competition among team members require an efficient solution. 
     
@@ -91,4 +101,46 @@ import { Image } from "astro:assets";
   <Image src={Team} alt="Team" />
 </Card>
 
+</CardGrid>
+
+# Our Team
+
+<CardGrid>
+  <ImgCard title="Artem Kolpakov">
+    <Image src={Artem} alt="Artem Kolpakov" size="1.333em" />
+    artemkolpakov78@gmail.com
+  </ImgCard>
+  <ImgCard title="Andy James">
+    <Image src={Andy} alt="Andy James" size="1.333em" />
+    andy.matthew.james@gmail.com
+  </ImgCard>
+  <ImgCard title="Colby Hannan">
+    <Image src={Colby} alt="Colby Hannan" size="1.333em" />
+    Colbyjh101@gmail.com
+  </ImgCard>
+  <ImgCard title="Frank Nguyen">
+    <Image src={Frank} alt="Frank Nguyen" size="1.333em" />
+    baoanhtdn@gmail.com
+  </ImgCard>
+  <ImgCard title="Jake Gehrke">
+    <Image src={Jake} alt="Jake Gehrke" size="1.333em" />
+    jake.d.gehrke@gmail.com
+  </ImgCard>
+  <ImgCard title="Jeff Huang">
+    <Image src={Jeff} alt="Jeff Huang" size="1.333em" />
+    huangjeff.cs@gmail.com
+  </ImgCard>
+</CardGrid>
+
+# Project Partners
+
+<CardGrid>
+  <ImgCard title="Jon Rehoorn">
+    <Image src={JonRehoorn} alt="Jon Rehoorn" size="1.333em" />
+    OSU Men's Golf Coach
+  </ImgCard>
+  <ImgCard title="Rob Hess">
+    <Image src={RobHess} alt="Rob Hess" size="1.333em" />
+    Computer Science Professor
+  </ImgCard>
 </CardGrid>
