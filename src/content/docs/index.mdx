@@ -17,14 +17,14 @@ hero:
 ---
 
 import { Card, CardGrid } from "@astrojs/starlight/components";
-import Assigned from '../../assets/Assigned.png'
-import Input from '../../assets/Input.png'
-import Result from '../../assets/Result.png'
-import Stats from '../../assets/Stats.png'
-import Leaderboard from '../../assets/Leaderboard.png'
-import Team from '../../assets/Team.png' 
+import Assigned from "../../assets/Assigned.png";
+import Input from "../../assets/Input.png";
+import Result from "../../assets/Result.png";
+import Stats from "../../assets/Stats.png";
+import Leaderboard from "../../assets/Leaderboard.png";
+import Team from "../../assets/Team.png";
 
-import { Image } from 'astro:assets';
+import { Image } from "astro:assets";
 
 ## About Us
 
@@ -40,36 +40,48 @@ import { Image } from 'astro:assets';
   <Card title="A Digital Approach to Golf Training" icon="seti:smarty">
     The Golf Drill Challenge is a cross-platform mobile application that aims to assist in golf training. It accomplishes this through drill management for coaches, plan distribution for practices, individual drill assignments for players, and team leaderboards to encourage healthy competition. On top of this, player progress is tracked over time on a graphical interface to allow for further insights into player performance. All in all, the Golf Drill Challenge App attempts to bring a digital approach to the training process of golf teams everywhere, providing the following features:
 
-    * **Team Management:** Coaches can promote people to assistant coaches and remove players from the team if they graduate. 
-    * **Drill Distribution:** Coach is able to distribute drills to the players individually for improving specific skills or to the whole team for practices. 
+    * **Team Management:** Coaches can promote people to assistant coaches and remove players from the team if they graduate.
+    * **Drill Distribution:** Coach is able to distribute drills to the players individually for improving specific skills or to the whole team for practices.
     * **Drill Scoring:** Players can score themselves on a drill and see results from completing drills including strokes gained for certain drill types.
-    * **Leaderboards:** After scoring a drill, player's best attempts will be kept on the leaderboard for every player to compare to for friendly competition. 
+    * **Leaderboards:** After scoring a drill, player's best attempts will be kept on the leaderboard for every player to compare to for friendly competition.
     * **Performance Charts:** Players are able to view their stats over time on each drill to see where they are improving and where they still need improvement on.
 
   </Card>
 
-  <Card title="Drill Distribution">
-    <Image src={Assigned} alt="Assigned drills" />
-  </Card>
+{" "}
 
-  <Card title="Drill Scoring">
-    <Image src={Input} alt="Drill Scoring" />
-  </Card>
+<Card title="Drill Distribution">
+  <Image src={Assigned} alt="Assigned drills" />
+</Card>
 
-  <Card title="Drill Submission Result">
-    <Image src={Result} alt="Drill Submission Result" />
-  </Card>
+{" "}
 
-  <Card title="Performance Chart">
-    <Image src={Stats} alt="Performance Chart" />
-  </Card>
+<Card title="Drill Scoring">
+  <Image src={Input} alt="Drill Scoring" />
+</Card>
 
-  <Card title="Leaderboard">
-    <Image src={Leaderboard} alt="Leaderboard" />
-  </Card>
+{" "}
 
-  <Card title="Team">
-    <Image src={Team} alt="Team" />
-  </Card>
+<Card title="Drill Submission Result">
+  <Image src={Result} alt="Drill Submission Result" />
+</Card>
+
+{" "}
+
+<Card title="Performance Chart">
+  <Image src={Stats} alt="Performance Chart" />
+</Card>
+
+{" "}
+
+<Card title="Leaderboard">
+  <Image src={Leaderboard} alt="Leaderboard" />
+</Card>
+
+{" "}
+
+<Card title="Team">
+  <Image src={Team} alt="Team" />
+</Card>
 
 </CardGrid>
